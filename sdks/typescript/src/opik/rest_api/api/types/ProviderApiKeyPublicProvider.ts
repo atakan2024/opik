@@ -3,12 +3,7 @@
  */
 
 export type ProviderApiKeyPublicProvider =
-    | "openai"
-    | "anthropic"
-    | "gemini"
-    | "openrouter"
-    | "vertex-ai"
-    | "custom-llm";
+    "openai" | "anthropic" | "gemini" | "openrouter" | "vertex-ai" | "custom-llm";
 export const ProviderApiKeyPublicProvider = {
     Openai: "openai",
     Anthropic: "anthropic",
